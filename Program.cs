@@ -6,4 +6,6 @@ class Program {
         Console.WriteLine("Hello, Moon!");
         Simulation simulation = new Simulation();
     }
+    
+    //paar generate functions voor users of movies
 }
