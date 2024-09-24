@@ -1,5 +1,14 @@
+using System.Numerics;
+using System.Runtime.CompilerServices;
+
 namespace Simulation;
 
-internal class Recommender {
-    public Recommender() { }
+public class Recommender {
+    public Vector4[] Movies { get; }
+
+    public Recommender(Vector4[] movies) {
+        Movies = movies;
+    }
+
+    public void UpdatePredictions(double[] ratings) { }
 }
