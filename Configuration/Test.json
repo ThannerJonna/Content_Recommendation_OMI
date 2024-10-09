@@ -1,0 +1,11 @@
+{
+  "AppSettings": {
+    "ServiceType": "Database3",
+    "DatabaseSettings": {
+      "ConnectionString": "Server=myServer;Database=myDB;User Id=myUser;Password=myPass;"
+    },
+    "FileSettings": {
+      "FilePath": "C:/path/to/myfile.txt"
+    }
+  }
+}
